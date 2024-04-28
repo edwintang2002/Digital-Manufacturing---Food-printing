@@ -10,7 +10,7 @@ G01 X10 Y10 Z5 F150 ; Move to drip line
 G01 X50 Y10 E0.5 F100 ; Extrude drip line
 
 G01 X60 Y60 F150; Move to start location
-G01 X60 Y80 E0.5 F100 ; Line 1 test
+G01 X60 Y80 E0.25 F100 ; Line 1 test
 G01 X60 Y60 F150 ; move back
 
 G01 X70 Y60 F200; Move to start location
@@ -18,7 +18,7 @@ G01 X70 Y80 E0.5 F150; line 2 test
 G01 X70 Y60 F150; move back
 
 G01 X80 Y60 F200; Move to start location
-G01 X80 Y80 E0.5 F150; line 3 test
+G01 X80 Y80 E1 F150; line 3 test
 G01 X80 Y60 F150; move back 
 
 
